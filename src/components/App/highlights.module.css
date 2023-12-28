@@ -8,11 +8,12 @@ section.highlights {
 section.highlights > div {
     height: 100%;
     width: calc(100% / 2);
-    padding: 1rem;
+    padding: 1rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--tertiaryBG);
+    position: relative;
 }
 
 section.highlights img {
@@ -34,4 +35,34 @@ section.highlights > div.highlight3 {
 div.highlight3 img {
     width: 100%;
     height: auto;
+}
+
+section.highlights p {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    position: absolute;
+    bottom: 10%;
+    right: -8%;
+    transform: rotate(270deg);
+    display: none;
+    animation: slideIn 0.2s ease-in-out;
+    animation-direction: alternate;
+}
+
+div.highlight1:hover p,
+div.highlight2:hover p,
+div.highlight3:hover p {
+    display: block;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        right: -20%;
+    }
+    to {
+        opacity: 1;
+        right: -8%;
+    }
 }
