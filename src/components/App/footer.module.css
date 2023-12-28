@@ -1,0 +1,73 @@
+section.footer {
+    height: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 80% 20%;
+}
+
+aside.footerAside {
+    grid-area: 1 / 1 / 2 / 2;
+    width: 100%;
+    height: 100%;
+}
+
+aside > div {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+aside > div > a {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--secondaryLabel);
+}
+
+aside img {
+    height: 100%;
+}
+
+aside > a {
+    text-decoration: none;
+}
+
+p.copy { 
+    color: var(--secondaryLabel);
+    font-size: 0.8rem;
+}
+
+a.author {
+    color: var(--secondaryLabel);
+    font-size: 0.8rem;
+}
+
+section.links {
+    width: 100%;
+    grid-area: 1 / 2 / 2 / 3;
+    padding: 5rem 5rem 5rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, calc(100% / 3));
+    align-content: center;
+    justify-content: center;
+    border-bottom: 3px solid var(--secondaryLabel);
+}
+
+section.links > p {
+    color: var(--secondaryLabel);
+    font-size: 0.7rem;
+    border-left: 3px solid greenyellow;
+    padding-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+section.socials {
+    grid-area: 2 / 2 / 3 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1rem;
+}

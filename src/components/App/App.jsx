@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import useImages from './useImages';
 import Bestsellers from './Bestsellers';
 import Highlights from './Highlights';
+import Footer from './Footer';
 
 import styles from './app.module.css';
 
@@ -35,6 +36,7 @@ function App() {
       </header>
       <Bestsellers bestSellers={bestSellers} />
       <Highlights />
+      <Footer />
     </>
   )
 }
