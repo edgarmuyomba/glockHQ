@@ -10,6 +10,9 @@ aside.footerAside {
     grid-area: 1 / 1 / 2 / 2;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
 }
 
 aside > div {
