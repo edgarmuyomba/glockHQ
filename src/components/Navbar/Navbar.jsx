@@ -4,18 +4,18 @@ import { mdiCart, mdiMagnify } from "@mdi/js";
 
 import styles from "./styles.module.css";
 
-export default function Navbar() {
+export default function Navbar({ selected }) {
     return (
         <div className={styles.navbar}>
             <div className={styles.logo}>
                 <img src="src/assets/glockHQ.png" alt="Logo" />
-                <Link to="#">GlockHQ</Link>
+                <Link to="/">GlockHQ</Link>
             </div>
             <ul className={styles.links}>
-                <li>
+                <li className={selected === 1 && styles.selected}>
                     <Link to="guns">GUNS</Link>
                 </li>
-                <li>
+                <li className={selected === 2 && styles.selected}>
                     <Link to="ammo">AMMO</Link>
                 </li>
                 <li>
@@ -40,4 +40,8 @@ export default function Navbar() {
             </div>
         </div>
     )
+}
+
+Navbar.defaulProps = {
+    selected: 0
 }

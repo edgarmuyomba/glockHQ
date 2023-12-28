@@ -1,0 +1,38 @@
+aside.sidebar {
+    height: 500px;
+    width: 30%;
+    padding: 1.5rem;
+    background-color: #414d32;
+}
+
+p.title {
+    color: white;
+    font-weight: bold;
+}
+
+ul.links {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+ul.links > a {
+    text-decoration: none;
+    color: var(--secondaryLabel);
+    font-size: 0.8rem;
+}
+
+a.selected {
+    border-left: 2px solid var(--secondaryLabel);
+    padding-left: 0.8rem;
+    line-height: 10px;
+}
+
+li.link {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    gap: 0.8rem;
+}

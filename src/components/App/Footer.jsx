@@ -10,7 +10,7 @@ export default function Footer() {
             <aside className={styles.footerAside}>
                 <div className="logo">
                     <img src="src/assets/glockHQ.png" alt="Logo" />
-                    <Link to="#">GlockHQ</Link>
+                    <Link to="/">GlockHQ</Link>
                 </div>
                 <p className={styles.copy}>Copyright &copy; 2023</p>
                 <a className={styles.author} href="https://github.com/edgarmuyomba">Edgar Muyomba</a>

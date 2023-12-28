@@ -41,6 +41,7 @@ ul.links a {
     font-size: 0.6rem;
 }
 
+li.selected,
 ul.links li:hover {
     text-decoration: underline;
     text-decoration-color: white;

@@ -4,7 +4,7 @@ header {
     height: 550px;
 }
 
-aside {
+aside.homeAside {
     padding: 0.5rem;
     color: white;
     display: flex;
@@ -19,7 +19,7 @@ p.title {
 
 p.heading {
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.8rem;
     line-height: 2.8rem;
 }
 

@@ -12,11 +12,11 @@ function App() {
 
   const { images: bestSellers, loading: loadingBest, error: errorBest } = useImages('bestsellers');
 
-  return (
+  return ( 
     <>
       <Navbar />
       <header>
-        <aside>
+        <aside className={styles.homeAside}>
           <p className={styles.title}>GlockHQ</p>
           <p className={styles.heading}>
             Home to premium weaponry, ammunition and everything Guns
