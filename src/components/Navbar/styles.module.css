@@ -1,0 +1,57 @@
+div.navbar {
+    display: flex;
+    align-items: center;
+    height: 5%;
+}
+
+div.logo {
+    height: 100%;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+div.logo > p {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+
+div.logo > img {
+    height: 100%;
+}
+
+ul.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    gap: 4rem;
+    margin-right: 6rem;
+}
+
+ul.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+ul.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+div.contact {
+    height: 100%;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: grey;
+    color: white;
+    font-size: 0.5rem;
+}
