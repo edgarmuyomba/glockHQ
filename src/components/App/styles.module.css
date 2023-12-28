@@ -48,13 +48,119 @@ button:hover {
     background-color: #464334;
 }
 
-section {
+section.cover {
     height: 100%;
     width: 50%;
     display: flex;
     align-items: center;
 }
 
-section > img {
+section.cover > img {
     width: 100%;
 }
+
+section.bestSellers {
+    height: 30%;
+}
+
+div.navbar {
+    display: flex;
+    align-items: center;
+}
+
+div.navbar > p {
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-right: auto;
+}
+
+div.navbar > ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 2rem;
+}
+
+div.navbar li {
+    transition: scale 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+div.navbar li:hover {
+    scale: 1.2;
+}
+
+div.navbar > a {
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-underline-offset: 8px;
+}
+
+div.imageSlider {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    transition: scroll 0.2s ease-in-out;
+}
+
+div.item {
+    height: 100%;
+    min-width: 300px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.item > div {
+    width: 100%;
+    height: 70%;
+    background-color: var(--secondaryBG);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+div.item img {
+    max-height: 100%;
+    width: 100%;
+}
+
+p.category {
+    font-size: 0.7rem;
+    color: var(--secondaryBG);
+}
+
+p.name {
+    font-size: 0.7rem;
+    color: lightgrey;
+    font-weight: bold;
+}
+
+p.price {
+    font-size: 0.6rem;
+    color: var(--secondaryLabel)
+}
+
+/* scroll bar styles */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 3px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

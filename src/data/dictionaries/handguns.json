@@ -1,0 +1,92 @@
+[
+    {
+        "filename": "Item_Weapon_DesertEagle_C_h.png",
+        "Category": "Handgun",
+        "Name": "DesertEagle",
+        "Price": 70.32,
+        "Weight": 4.79,
+        "Serial": 1430706925,
+        "Damage": 1,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "Item_Weapon_G18_C_h.png",
+        "Category": "Handgun",
+        "Name": "G18",
+        "Price": 99.19,
+        "Weight": 6.34,
+        "Serial": 2988202007,
+        "Damage": 5,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "Item_Weapon_M1911_C_h.png",
+        "Category": "Handgun",
+        "Name": "M1911",
+        "Price": 113.61,
+        "Weight": 7.95,
+        "Serial": 6325780462,
+        "Damage": 2,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "Item_Weapon_M79_C.png",
+        "Category": "Handgun",
+        "Name": "M79",
+        "Price": 89.42,
+        "Weight": 6.45,
+        "Serial": 6906803160,
+        "Damage": 1,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "Item_Weapon_M9_C_h.png",
+        "Category": "Handgun",
+        "Name": "M9",
+        "Price": 96.7,
+        "Weight": 5.46,
+        "Serial": 8105587173,
+        "Damage": 4,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "Item_Weapon_NagantM1895_C_h.png",
+        "Category": "Handgun",
+        "Name": "NagantM1895",
+        "Price": 109.39,
+        "Weight": 7.97,
+        "Serial": 2752179137,
+        "Damage": 1,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "Item_Weapon_Rhino_C_h.png",
+        "Category": "Handgun",
+        "Name": "Rhino",
+        "Price": 100.28,
+        "Weight": 7.96,
+        "Serial": 8350487011,
+        "Damage": 5,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "Item_Weapon_Sawnoff_C_h.png",
+        "Category": "Handgun",
+        "Name": "Sawnoff",
+        "Price": 79.03,
+        "Weight": 7.04,
+        "Serial": 1814030554,
+        "Damage": 3,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "Item_Weapon_vz61Skorpion_C_h.png",
+        "Category": "Handgun",
+        "Name": "vz61Skorpion",
+        "Price": 102.29,
+        "Weight": 4.25,
+        "Serial": 1198654875,
+        "Damage": 3,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    }
+]

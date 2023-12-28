@@ -1,0 +1,132 @@
+[
+    {
+        "filename": "Item_Ammo_12Guage_C.png",
+        "Category": "Ammunition",
+        "Name": "12Guage",
+        "Price": 13.36,
+        "Weight": 0.84,
+        "Serial": 4971734753,
+        "Damage": 1,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "Item_Ammo_300Magnum_C.png",
+        "Category": "Ammunition",
+        "Name": "300Magnum",
+        "Price": 13.25,
+        "Weight": 0.76,
+        "Serial": 6485558190,
+        "Damage": 2,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "Item_Ammo_303Ball_C.png",
+        "Category": "Ammunition",
+        "Name": "303Ball",
+        "Price": 10.03,
+        "Weight": 0.66,
+        "Serial": 9213968896,
+        "Damage": 3,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "item_Ammo_40mm_C.png",
+        "Category": "Ammunition",
+        "Name": "item 40mm",
+        "Price": 14.32,
+        "Weight": 0.55,
+        "Serial": 9039898827,
+        "Damage": 2,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "Item_Ammo_44Magnum_C.png",
+        "Category": "Ammunition",
+        "Name": "44Magnum",
+        "Price": 14.52,
+        "Weight": 0.84,
+        "Serial": 2866311546,
+        "Damage": 3,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "Item_Ammo_45ACP_C.png",
+        "Category": "Ammunition",
+        "Name": "45ACP",
+        "Price": 18.7,
+        "Weight": 0.39,
+        "Serial": 7806511700,
+        "Damage": 1,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "Item_Ammo_556mm_C.png",
+        "Category": "Ammunition",
+        "Name": "556mm",
+        "Price": 12.7,
+        "Weight": 0.23,
+        "Serial": 4897277320,
+        "Damage": 4,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "item_Ammo_57mm_c.png",
+        "Category": "Ammunition",
+        "Name": "item 57mm c.png",
+        "Price": 12.17,
+        "Weight": 0.85,
+        "Serial": 5594673020,
+        "Damage": 1,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "item_Ammo_60mm_C.png",
+        "Category": "Ammunition",
+        "Name": "item 60mm",
+        "Price": 18.45,
+        "Weight": 0.68,
+        "Serial": 1978373938,
+        "Damage": 2,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "Item_Ammo_762mm_C.png",
+        "Category": "Ammunition",
+        "Name": "762mm",
+        "Price": 17.59,
+        "Weight": 0.26,
+        "Serial": 1391166238,
+        "Damage": 5,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "Item_Ammo_9mm_C.png",
+        "Category": "Ammunition",
+        "Name": "9mm",
+        "Price": 16.94,
+        "Weight": 0.76,
+        "Serial": 9772905476,
+        "Damage": 4,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "Item_Ammo_Bolt_C.png",
+        "Category": "Ammunition",
+        "Name": "Bolt",
+        "Price": 13.28,
+        "Weight": 0.65,
+        "Serial": 1377606562,
+        "Damage": 4,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    },
+    {
+        "filename": "Item_Ammo_Flare_C.png",
+        "Category": "Ammunition",
+        "Name": "Flare",
+        "Price": 15.82,
+        "Weight": 0.54,
+        "Serial": 9532062961,
+        "Damage": 5,
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
+    }
+]

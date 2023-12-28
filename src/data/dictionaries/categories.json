@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Handgun",
+        "count": 12
+    },
+    {
+        "name": "Rifle",
+        "count": 30
+    },
+    {
+        "name": "Attachment",
+        "count": 18
+    }
+]
