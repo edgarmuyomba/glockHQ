@@ -1,8 +1,8 @@
 import Navbar from '../Navbar/Navbar'
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react';
 import useImages from './useImages';
 import Bestsellers from './Bestsellers';
+import Highlights from './Highlights';
 
 import styles from './app.module.css';
 
@@ -10,8 +10,6 @@ import styles from './app.module.css';
 function App() {
 
   const { images: bestSellers, loading: loadingBest, error: errorBest } = useImages('bestsellers');
-
-  // console.log(bestSellers);
 
   return (
     <>
@@ -36,6 +34,7 @@ function App() {
         </section>
       </header>
       <Bestsellers bestSellers={bestSellers} />
+      <Highlights />
     </>
   )
 }

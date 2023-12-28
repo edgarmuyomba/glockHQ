@@ -1,10 +1,11 @@
 section.bestSellers {
-    height: 30%;
+    height: 400px;
 }
 
 div.navbar {
     display: flex;
     align-items: center;
+    height: 10%;
 }
 
 div.navbar>p {
@@ -37,7 +38,7 @@ div.navbar>a {
 }
 
 div.imageSlider {
-    height: 100%;
+    height: 90%;
     width: 100%;
     display: flex;
     gap: 16px;

@@ -1,7 +1,7 @@
 div.navbar {
     display: flex;
     align-items: center;
-    height: 5%;
+    height: 60px;
 }
 
 div.navbar > * {

@@ -1,0 +1,37 @@
+section.highlights {
+    width: 100%;
+    height: 900px;
+    margin: 1rem 0;
+    display: flex;
+}
+
+section.highlights > div {
+    height: 100%;
+    width: calc(100% / 2);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--tertiaryBG);
+}
+
+section.highlights img {
+    height: 100%;
+}
+
+section.highlights > div.highlight2 {
+    background-color: rgb(26, 29, 26);
+}
+
+div.highlight2 img {
+    height: 50%;
+}
+
+section.highlights > div.highlight3 {
+    padding: 1rem 0;
+}
+
+div.highlight3 img {
+    width: 100%;
+    height: auto;
+}
