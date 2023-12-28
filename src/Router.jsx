@@ -1,4 +1,4 @@
-import App from './App';
+import App from './components/App/App';
 import Guns from './components/Guns/Guns';
 import Ammo from './components/Ammo/Ammo';
 import Cart from './components/Cart/Cart';

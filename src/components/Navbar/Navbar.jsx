@@ -9,7 +9,7 @@ export default function Navbar() {
         <div className={styles.navbar}>
             <div className={styles.logo}>
                 <img src="src/assets/glockHQ.png" alt="Logo" />
-                <p>GlockHQ</p>
+                <Link to="#">GlockHQ</Link>
             </div>
             <ul className={styles.links}>
                 <li>

@@ -4,6 +4,10 @@ div.navbar {
     height: 5%;
 }
 
+div.navbar > * {
+    padding-top: 0.5rem;
+}
+
 div.logo {
     height: 100%;
     margin-right: auto;
@@ -11,10 +15,11 @@ div.logo {
     align-items: center;
 }
 
-div.logo > p {
+div.logo > a {
     font-weight: bold;
     font-size: 1.5rem;
     color: white;
+    text-decoration: none;
 }
 
 div.logo > img {
@@ -34,7 +39,11 @@ ul.links a {
     text-decoration: none;
     color: white;
     font-size: 0.6rem;
-    font-weight: 600;
+}
+
+ul.links li:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
 }
 
 ul.icons {
@@ -51,6 +60,7 @@ div.contact {
     display: flex;
     align-items: center;
     padding: 0 1rem;
+    padding-top: 0;
     background-color: grey;
     color: white;
     font-size: 0.5rem;
