@@ -1,3 +1,3 @@
-export default function Rifles() {
+export default function Rifles({ products }) {
     
 }

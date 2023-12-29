@@ -1,3 +1,3 @@
-export default function Attachments() {
+export default function Attachments({ products }) {
     
 }

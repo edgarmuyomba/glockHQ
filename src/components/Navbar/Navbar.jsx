@@ -12,11 +12,11 @@ export default function Navbar({ selected }) {
                 <Link to="/">GlockHQ</Link>
             </div>
             <ul className={styles.links}>
-                <li className={selected === 1 && styles.selected}>
-                    <Link to="guns">GUNS</Link>
+                <li className={selected === 1 ? styles.selected : ''}>
+                    <Link to="/guns">GUNS</Link>
                 </li>
-                <li className={selected === 2 && styles.selected}>
-                    <Link to="ammo">AMMO</Link>
+                <li className={selected === 2 ? styles.selected : ''}>
+                    <Link to="/ammo">AMMO</Link>
                 </li>
                 <li>
                     <Link to="#">ACCESSORIES</Link>

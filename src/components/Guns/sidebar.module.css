@@ -36,3 +36,8 @@ li.link {
     height: 50px;
     gap: 0.8rem;
 }
+
+div.main {
+    width: 70%;
+    border: 1px solid red;
+}

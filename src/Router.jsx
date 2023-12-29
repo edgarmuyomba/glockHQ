@@ -20,6 +20,9 @@ export default function Router() {
             children: [
                 {
                     index: true,
+                    element: <Handguns />
+                },
+                {
                     path: "handguns",
                     element: <Handguns />
                 },

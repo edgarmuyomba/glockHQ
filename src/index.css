@@ -17,9 +17,13 @@
     font-family: 'Lato';
 }
 
+html {
+    width: 100vw;
+}
+
 body {
     padding: 0 10rem;
-    width: 100vw;
+    width: 100%;
     background-color: var(--primaryBG);
 }
 

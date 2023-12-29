@@ -5,12 +5,15 @@ import { Outlet } from 'react-router-dom';
 import styles from './guns.module.css';
 
 export default function Guns() {
+
     return (
         <>
             <Navbar selected={1} />
             <div className={styles.main}>
                 <Sidebar />
-                <Outlet />
+                <section className={styles.products}>
+                    <Outlet />
+                </section>
             </div>
         </>
     );

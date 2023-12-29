@@ -13,7 +13,6 @@ export default function useImages(role) {
 
     useEffect(() => {
         if (role === 'bestsellers') {
-            console.log(role);
             // bestsellers
             let bestSellers = [];
 
