@@ -56,6 +56,24 @@ ul.icons {
     gap: 1rem;
 }
 
+li.cart {
+    position: relative;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.active {
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    right: 0;
+    border-radius: 50%;
+    background-color: greenyellow;
+    align-self: start;
+}
+
 div.contact {
     height: 100%;
     margin-left: 1rem;

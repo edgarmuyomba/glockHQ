@@ -6,43 +6,53 @@ import Handguns from './components/Guns/Handguns';
 import Rifles from './components/Guns/Rifles';
 import Attachments from './components/Guns/Attachments';
 
+import { useState } from 'react';
+
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 export default function Router() {
+
+    const [cart, setCart] = useState([]);
+
+    const props = {
+        cart: cart,
+        setCart: setCart
+    }
+
     const router = createBrowserRouter([
         {
             path: "/",
-            element: <App />
+            element: <App {...props} />
         },
         {
             path: "guns",
-            element: <Guns />,
+            element: <Guns {...props} />,
             children: [
                 {
                     index: true,
-                    element: <Handguns />
+                    element: <Handguns {...props} />
                 },
                 {
                     path: "handguns",
-                    element: <Handguns />
+                    element: <Handguns {...props} />
                 },
                 {
                     path: "rifles",
-                    element: <Rifles />
+                    element: <Rifles {...props} />
                 },
                 {
                     path: "attachments",
-                    element: <Attachments />
+                    element: <Attachments {...props} />
                 }
             ]
         },
         {
             path: "ammo",
-            element: <Ammo />
+            element: <Ammo {...props} />
         },
         {
             path: "cart",
-            element: <Cart />
+            element: <Cart {...props} />
         },
     ]);
 

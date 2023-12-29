@@ -3,7 +3,7 @@ import useProducts from "./useProducts";
 
 import { attachmentImages } from "../imageMaps";
 
-export default function Attachments() {
+export default function Attachments({ cart, setCart }) {
     
     const products = useProducts("attachments");
     

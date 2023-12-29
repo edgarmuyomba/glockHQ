@@ -15,7 +15,7 @@ export default function Footer() {
                     <Link to="/">GlockHQ</Link>
                 </div>
                 <p className={styles.copy}>Copyright &copy; 2023</p>
-                <a className={styles.author} href="https://github.com/edgarmuyomba">Edgar Muyomba</a>
+                <a className={styles.author} href="https://github.com/edgarmuyomba" target='_blank'>Edgar Muyomba</a>
             </aside>
             <section className={styles.links}>
                 <p>Home</p>

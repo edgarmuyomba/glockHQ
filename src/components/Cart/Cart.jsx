@@ -1,3 +1,3 @@
-export default function Cart() {
+export default function Cart({ cart, setCart }) {
     
 }

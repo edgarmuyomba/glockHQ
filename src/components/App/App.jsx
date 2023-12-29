@@ -10,13 +10,18 @@ import coverPhoto from '../../assets/cover_photo.jpg';
 import styles from './app.module.css';
 
 
-function App() {
+function App({ cart, setCart }) {
 
   const { images: bestSellers, loading: loadingBest, error: errorBest } = useImages('bestsellers');
 
+  const props = {
+    cart: cart,
+    setCart: setCart
+  };
+
   return ( 
     <>
-      <Navbar />
+      <Navbar {...props} />
       <header>
         <aside className={styles.homeAside}>
           <p className={styles.title}>GlockHQ</p>

@@ -7,16 +7,22 @@ import styles from './styles.module.css';
 
 import { ammunitionImages } from "../imageMaps";
 
-export default function Ammo() {
+export default function Ammo({ cart, setCart }) {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
         setProducts(ammunition)
     }, []);
 
+    const props = {
+        selected: 2,
+        cart: cart, 
+        setCart: setCart
+    }
+
     return (
         <>
-            <Navbar selected={2} />
+            <Navbar {...props} />
             <div className={styles.main}>
                 {
                     products.map((product, index) => {

@@ -3,7 +3,7 @@ import useProducts from "./useProducts";
 
 import { rifleImages } from "../imageMaps";
 
-export default function Rifles() {
+export default function Rifles({ cart, setCart }) {
 
     const products = useProducts("rifles");
     

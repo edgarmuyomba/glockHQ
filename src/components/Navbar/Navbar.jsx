@@ -6,7 +6,7 @@ import glockHQ from '../../assets/glockHQ.png';
 
 import styles from "./styles.module.css";
 
-export default function Navbar({ selected }) {
+export default function Navbar({ selected, cart, setCart }) {
     return (
         <div className={styles.navbar}>
             <div className={styles.logo}>
@@ -28,7 +28,8 @@ export default function Navbar({ selected }) {
                 </li>
             </ul>
             <ul className={styles.icons}>
-                <li>
+                <li className={styles.cart}>
+                    <div className={cart.length > 0 ? styles.active : ''}></div>
                     <Link to="cart">
                         <Icon path={mdiCart} size={0.7} color="#a29889" title="Cart" />
                     </Link>
