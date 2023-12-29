@@ -1,3 +1,11 @@
+div.main {
+    width: 100%;
+    margin: 2.5rem 0;
+    display: grid;
+    gap: 0.8rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
 a.product {
     text-decoration: none;
 }
@@ -17,7 +25,7 @@ div.image {
 }
 
 div.image > img {
-    width: 80%;
+    height: 80%;
     transition: scale 0.2s ease-in-out;
 }
 

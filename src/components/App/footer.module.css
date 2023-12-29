@@ -13,6 +13,8 @@ aside.footerAside {
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
+    justify-content: center;
+    padding-left: 1rem;
 }
 
 aside > div {

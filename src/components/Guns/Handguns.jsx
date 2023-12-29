@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import styles from './categories.module.css';
 
-import { handgunImages } from "./imageMaps";
+import { handgunImages } from "../imageMaps";
 
 export default function Handguns() {
 

@@ -1,7 +1,7 @@
 import useProducts from "./useProducts";
 import { Link } from "react-router-dom";
 
-import { rifleImages } from "./imageMaps";
+import { rifleImages } from "../imageMaps";
 
 import styles from './categories.module.css';
 
