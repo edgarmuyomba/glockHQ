@@ -14,7 +14,7 @@ export default function Ammo({ cart, setCart }) {
         setProducts(ammunition)
     }, []);
 
-    const props = {
+    let props = {
         selected: 2,
         cart: cart, 
         setCart: setCart
@@ -26,8 +26,15 @@ export default function Ammo({ cart, setCart }) {
             <div className={styles.main}>
                 {
                     products.map((product, index) => {
+                        props = {
+                            cart: cart,
+                            setCart: setCart,
+                            product: product,
+                            images: ammunitionImages
+                        }
+
                         return (
-                            <Product key={index} product={product} images={ammunitionImages} />
+                            <Product key={index} {...props} />
                         );
                     })
                 }

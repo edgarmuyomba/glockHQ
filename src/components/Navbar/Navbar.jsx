@@ -5,6 +5,7 @@ import { mdiCart, mdiMagnify } from "@mdi/js";
 import glockHQ from '../../assets/glockHQ.png';
 
 import styles from "./styles.module.css";
+import { useEffect } from "react";
 
 export default function Navbar({ selected, cart, setCart }) {
     return (

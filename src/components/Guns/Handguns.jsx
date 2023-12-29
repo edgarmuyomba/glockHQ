@@ -11,8 +11,16 @@ export default function Handguns({ cart, setCart }) {
         <>
             {
                 products.map((product, index) => {
+                    
+                    let props = {
+                        cart: cart,
+                        setCart: setCart,
+                        product: product,
+                        images: handgunImages
+                    }
+
                     return (
-                        <Product key={index} product={product} images={handgunImages} />
+                        <Product key={index} {...props} />
                     );
                 })
             }

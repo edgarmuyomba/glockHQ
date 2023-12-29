@@ -11,8 +11,16 @@ export default function Attachments({ cart, setCart }) {
         <>
             {
                 products.map((product, index) => {
+                    
+                    let props = {
+                        cart: cart,
+                        setCart: setCart,
+                        product: product,
+                        images: attachmentImages
+                    }
+
                     return (
-                        <Product key={index} product={product} images={attachmentImages} />
+                        <Product key={index} {...props} />
                     );
                 })
             }
