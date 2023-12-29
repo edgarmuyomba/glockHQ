@@ -8,9 +8,6 @@ import styles from "./styles.module.css";
 import { useEffect } from "react";
 
 export default function Navbar({ selected, cart, setCart }) {
-    useEffect(() => {
-        console.log(cart);
-    }, [cart])
     return (
         <div className={styles.navbar}>
             <div className={styles.logo}>
