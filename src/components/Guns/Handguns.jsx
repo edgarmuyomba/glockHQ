@@ -1,7 +1,7 @@
 import useProducts from "./useProducts";
 import { Link } from "react-router-dom";
 
-import styles from './handguns.module.css';
+import styles from './categories.module.css';
 
 import { handgunImages } from "./imageMaps";
 
@@ -13,7 +13,6 @@ export default function Handguns() {
         <>
             {
                 products.map((product, index) => {
-
                     return (
                         <Link key={index} className={styles.product}>
                             <div className={styles.product}>
