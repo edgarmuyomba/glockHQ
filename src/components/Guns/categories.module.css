@@ -1,5 +1,6 @@
 a.product {
     text-decoration: none;
+    /* padding: 0.5rem 0; */
 }
 
 div.product {
@@ -7,7 +8,7 @@ div.product {
 }
 
 div.image {
-    height: 80%;
+    height: 70%;
     width: 100%;
     padding: 2rem;
     display: flex;
@@ -31,6 +32,7 @@ footer.details {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
     border: 1px solid var(--secondaryBG);
+    height: 30%;
 }
 
 p.name {

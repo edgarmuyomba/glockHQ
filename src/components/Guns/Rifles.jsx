@@ -8,6 +8,7 @@ import styles from './categories.module.css';
 export default function Rifles() {
 
     const products = useProducts("rifles");
+    
     return (
         <>
             {
