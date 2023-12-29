@@ -21,10 +21,10 @@ export default function Navbar({ selected }) {
                     <Link to="/ammo">AMMO</Link>
                 </li>
                 <li>
-                    <Link to="#">ACCESSORIES</Link>
+                    <Link>ACCESSORIES</Link>
                 </li>
                 <li>
-                    <Link to="#">BLOG</Link>
+                    <Link>BLOG</Link>
                 </li>
             </ul>
             <ul className={styles.icons}>

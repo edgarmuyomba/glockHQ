@@ -7,7 +7,7 @@ div.product {
 }
 
 div.image {
-    height: 70%;
+    height: 80%;
     width: 100%;
     padding: 2rem;
     display: flex;
@@ -29,9 +29,9 @@ footer.details {
     padding: 0.5rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
     border: 1px solid var(--secondaryBG);
-    height: 30%;
+    height: 20%;
 }
 
 p.name {
