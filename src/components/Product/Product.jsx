@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import styles from './product.module.css';
 
@@ -7,6 +7,16 @@ export default function Product({ product, images, cart, setCart }) {
 
     const [selected, setSelected] = useState(false);
     const [count, setCount] = useState(1);
+
+    useEffect(() => {
+        const item = cart.find((item) => item.id === product.id);
+
+        if (item) {
+            setSelected(true);
+            setCount(item.count);
+        }
+
+    }, []);
 
     const handleCount = (operation, product) => {
         let _cart = cart;
@@ -33,7 +43,8 @@ export default function Product({ product, images, cart, setCart }) {
                 setCount(1);
             }
         }
-        setCart(_cart);
+        // don't know why navbar cannot see that _cart is now empty. this is the only working solution
+        setCart((cart) => (_cart.length > 0 ? _cart : []));
     }
 
     return (
@@ -61,7 +72,7 @@ export default function Product({ product, images, cart, setCart }) {
                             )
                             : (
                                 <button className={styles.add} onClick={() => {
-                                    setCart((cart) => ([...cart, { id: product.id, category: product.Category, count: 1 }]));
+                                    setCart((cart) => [...cart, { id: product.id, category: product.Category, count: 1 }]);
                                     setSelected(true);
                                 }
                                 }>
