@@ -35,7 +35,7 @@ export default function Bestsellers({ bestSellers }) {
                 <div className="image">
                   <img src={`src/data/images/${item.Category}/${item.filename}`} alt="" />
                 </div>
-                <p className={styles.category}>{item.Category}</p>
+                <Link to={`guns/${item.Category.toLowerCase()}s`} className={styles.category}>{item.Category}</Link>
                 <Link>
                   <p className={styles.name}>{item.Name}</p>
                 </Link>

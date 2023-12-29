@@ -7,7 +7,7 @@ div.product {
 }
 
 div.image {
-    height: 80%;
+    height: 70%;
     width: 100%;
     padding: 2rem;
     display: flex;
@@ -31,7 +31,7 @@ footer.details {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 2fr;
     border: 1px solid var(--secondaryBG);
-    height: 20%;
+    height: 30%;
 }
 
 p.name {
@@ -51,4 +51,63 @@ p.price {
     font-weight: bold;
     color: #aaaa9a;
     justify-self: end;
+}
+
+button.add {
+    justify-self: end;
+    align-self: start;
+    width: 70%;
+    background-color: transparent;
+    border: 0.3px solid var(--secondaryLabel);
+    font-size: 0.5rem;
+    color: var(--secondaryLabel);
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 0.2rem 0;
+}
+
+button.add:hover {
+    background-color: var(--secondaryLabel);
+    color: var(--primaryBG);
+}
+
+div.count {
+    align-self: start;
+    justify-self: end;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40%;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 0.6rem;
+    color: var(--secondaryLabel);
+}
+
+div.count > button {
+    width: 35%;
+    height: 100%;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    transition: font-size 0.1s ease-in-out;
+}
+
+div.count > button:hover {
+    font-size: 1rem;
+}
+
+button.sub {
+    border-radius: 3px 0 0 3px;
+    border: none;
+}
+
+button.plus {
+    border-radius: 0 3px 3px 0;
+    border: none;
 }

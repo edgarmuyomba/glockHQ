@@ -26,7 +26,7 @@ function App() {
           <p className={styles.summary}>
             This is not a real website. Do not try to purchase guns from here.
           </p>
-          <button>
+          <button className={styles.guns}>
             <Link to="guns">SHOP NOW</Link>
           </button>
         </aside>

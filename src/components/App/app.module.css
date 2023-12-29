@@ -30,7 +30,7 @@ p.summary {
     line-height: 1.8rem;
 }
 
-button {
+button.guns {
     width: 6rem;
     padding: 0.5rem 1rem;
     background-color: var(--primaryButton);
@@ -39,13 +39,13 @@ button {
     transition: background-color 0.2s ease-in-out;
 }
 
-button a {
+button.guns a {
     text-decoration: none;
     font-size: 0.5rem;
     color: white;
 }
 
-button:hover {
+button.guns:hover {
     background-color: #464334;
 }
 

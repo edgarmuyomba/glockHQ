@@ -76,7 +76,7 @@ div.item img {
     width: 100%;
 }
 
-p.category {
+a.category {
     font-size: 0.7rem;
     color: var(--secondaryBG);
 }
