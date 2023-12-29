@@ -4,8 +4,8 @@
         "filename": "Item_Attach_Weapon_Lower_AngledForeGrip_C.png",
         "Category": "Attachment",
         "Name": "Lower AngledForeGrip",
-        "Price": 42.09,
-        "Weight": 1.47,
+        "Price": 49.26,
+        "Weight": 2.08,
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
     },
     {
@@ -13,17 +13,17 @@
         "filename": "Item_Attach_Weapon_Lower_Foregrip_C.png",
         "Category": "Attachment",
         "Name": "Lower Foregrip",
-        "Price": 45.81,
-        "Weight": 1.03,
+        "Price": 53.84,
+        "Weight": 2.78,
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
     },
     {
         "id": 45,
         "filename": "Item_Attach_Weapon_Lower_Foregrip_Crossbow.png",
         "Category": "Attachment",
-        "Name": "Lower Foregrip Crossbow.png",
-        "Price": 59.85,
-        "Weight": 1.95,
+        "Name": "Lower Foregrip Crossbow png",
+        "Price": 53.04,
+        "Weight": 1.68,
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
     },
     {
@@ -31,8 +31,8 @@
         "filename": "Item_Attach_Weapon_Lower_HalfGrip_C.png",
         "Category": "Attachment",
         "Name": "Lower HalfGrip",
-        "Price": 51.14,
-        "Weight": 2.42,
+        "Price": 40.13,
+        "Weight": 2.2,
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
     },
     {
@@ -40,8 +40,8 @@
         "filename": "Item_Attach_Weapon_Lower_LaserPointer_C.png",
         "Category": "Attachment",
         "Name": "Lower LaserPointer",
-        "Price": 56.35,
-        "Weight": 1.58,
+        "Price": 54.12,
+        "Weight": 1.5,
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
     },
     {
@@ -49,8 +49,8 @@
         "filename": "Item_Attach_Weapon_Lower_LightweightForeGrip_C.png",
         "Category": "Attachment",
         "Name": "Lower LightweightForeGrip",
-        "Price": 47.97,
-        "Weight": 1.48,
+        "Price": 56.86,
+        "Weight": 2.05,
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
     },
     {
@@ -58,17 +58,17 @@
         "filename": "Item_Attach_Weapon_Lower_QuickDraw_Large_Crossbow_C.png",
         "Category": "Attachment",
         "Name": "Lower QuickDraw Large Crossbow",
-        "Price": 52.86,
-        "Weight": 1.96,
+        "Price": 58.51,
+        "Weight": 2.01,
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
     },
     {
         "id": 50,
         "filename": "Item_Attach_Weapon_Lower_Sniper_CheekPad_Vss_setting.png",
         "Category": "Attachment",
-        "Name": "Lower Sniper CheekPad Vss setting.png",
-        "Price": 56.45,
-        "Weight": 2.55,
+        "Name": "Lower Sniper CheekPad Vss setting png",
+        "Price": 49.33,
+        "Weight": 1.47,
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
     },
     {
@@ -76,8 +76,8 @@
         "filename": "Item_Attach_Weapon_Lower_ThumbGrip_C.png",
         "Category": "Attachment",
         "Name": "Lower ThumbGrip",
-        "Price": 56.3,
-        "Weight": 1.35,
+        "Price": 44.93,
+        "Weight": 1.03,
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
     },
     {
@@ -85,8 +85,8 @@
         "filename": "Item_Attach_Weapon_Magazine_ExtendedQuickDraw_Large_C.png",
         "Category": "Attachment",
         "Name": "Magazine ExtendedQuickDraw Large",
-        "Price": 55.5,
-        "Weight": 1.73,
+        "Price": 57.88,
+        "Weight": 1.96,
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
     },
     {
@@ -94,8 +94,8 @@
         "filename": "Item_Attach_Weapon_Magazine_ExtendedQuickDraw_Medium_C.png",
         "Category": "Attachment",
         "Name": "Magazine ExtendedQuickDraw Medium",
-        "Price": 46.95,
-        "Weight": 1.98,
+        "Price": 43.67,
+        "Weight": 1.73,
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
     },
     {
@@ -103,8 +103,8 @@
         "filename": "Item_Attach_Weapon_Magazine_ExtendedQuickDraw_Small_C.png",
         "Category": "Attachment",
         "Name": "Magazine ExtendedQuickDraw Small",
-        "Price": 45.98,
-        "Weight": 2.15,
+        "Price": 48.09,
+        "Weight": 1.61,
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
     },
     {
@@ -112,17 +112,17 @@
         "filename": "Item_Attach_Weapon_Magazine_ExtendedQuickDraw_SniperRifle_C.png",
         "Category": "Attachment",
         "Name": "Magazine ExtendedQuickDraw SniperRifle",
-        "Price": 54.46,
-        "Weight": 1.76,
+        "Price": 53.51,
+        "Weight": 2.22,
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
     },
     {
         "id": 56,
         "filename": "Item_Attach_Weapon_Magazine_Extended_DrumMagazine.png",
         "Category": "Attachment",
-        "Name": "Magazine Extended DrumMagazine.png",
-        "Price": 48.94,
-        "Weight": 1.82,
+        "Name": "Magazine Extended DrumMagazine png",
+        "Price": 50.83,
+        "Weight": 1.06,
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
     },
     {
@@ -130,8 +130,8 @@
         "filename": "Item_Attach_Weapon_Magazine_Extended_Large_C.png",
         "Category": "Attachment",
         "Name": "Magazine Extended Large",
-        "Price": 51.02,
-        "Weight": 2.06,
+        "Price": 43.54,
+        "Weight": 1.06,
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
     },
     {
@@ -139,8 +139,8 @@
         "filename": "Item_Attach_Weapon_Magazine_Extended_Medium_C.png",
         "Category": "Attachment",
         "Name": "Magazine Extended Medium",
-        "Price": 50.78,
-        "Weight": 1.41,
+        "Price": 43.03,
+        "Weight": 2.17,
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
     },
     {
@@ -148,8 +148,8 @@
         "filename": "Item_Attach_Weapon_Magazine_Extended_Small_C.png",
         "Category": "Attachment",
         "Name": "Magazine Extended Small",
-        "Price": 52.05,
-        "Weight": 1.95,
+        "Price": 53.21,
+        "Weight": 1.34,
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
     },
     {
@@ -157,8 +157,8 @@
         "filename": "Item_Attach_Weapon_Magazine_Extended_SniperRifle_C.png",
         "Category": "Attachment",
         "Name": "Magazine Extended SniperRifle",
-        "Price": 44.53,
-        "Weight": 1.1,
+        "Price": 54.71,
+        "Weight": 1.54,
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus mi, eu placerat neque viverra vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean pretium imperdiet purus finibus tincidunt. Sed orci nulla, hendrerit vel vulputate eget, tincidunt ut neque. Vivamus eget nisi sit amet sem maximus mollis. Mauris massa erat, semper vitae tempor id, laoreet non urna. Aenean eget ullamcorper eros. Cras venenatis nibh in est egestas, sed scelerisque lacus fermentum. Quisque blandit vehicula massa non tristique. Curabitur eleifend urna non urna rutrum, eu scelerisque lacus aliquet. In interdum sed odio vel scelerisque. Nam vestibulum vitae justo imperdiet iaculis. Proin tristique nisl sit amet odio accumsan dapibus. Sed ut vulputate odio."
     }
 ]

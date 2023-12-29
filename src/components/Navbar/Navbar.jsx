@@ -2,13 +2,15 @@ import { Link } from "react-router-dom";
 import Icon from "@mdi/react";
 import { mdiCart, mdiMagnify } from "@mdi/js";
 
+import glockHQ from '../../assets/glockHQ.png';
+
 import styles from "./styles.module.css";
 
 export default function Navbar({ selected }) {
     return (
         <div className={styles.navbar}>
             <div className={styles.logo}>
-                <img src="src/assets/glockHQ.png" alt="Logo" />
+                <img src={glockHQ} alt="Logo" />
                 <Link to="/">GlockHQ</Link>
             </div>
             <ul className={styles.links}>

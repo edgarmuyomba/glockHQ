@@ -18,6 +18,11 @@ div.image {
 
 div.image > img {
     width: 80%;
+    transition: scale 0.2s ease-in-out;
+}
+
+div.image:hover img {
+    scale: 1.5;
 }
 
 footer.details {

@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import Icon from '@mdi/react';
 import { mdiTwitter, mdiFacebook, mdiInstagram, mdiLinkedin } from '@mdi/js';
 
+import glockHQ from '../../assets/glockHQ.png';
+
 import styles from './footer.module.css';
 
 export default function Footer() {
@@ -9,7 +11,7 @@ export default function Footer() {
         <section className={styles.footer}>
             <aside className={styles.footerAside}>
                 <div className="logo">
-                    <img src="src/assets/glockHQ.png" alt="Logo" />
+                    <img src={glockHQ} alt="Logo" />
                     <Link to="/">GlockHQ</Link>
                 </div>
                 <p className={styles.copy}>Copyright &copy; 2023</p>

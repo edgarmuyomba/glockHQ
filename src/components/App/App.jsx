@@ -5,6 +5,8 @@ import Bestsellers from './Bestsellers';
 import Highlights from './Highlights';
 import Footer from './Footer';
 
+import coverPhoto from '../../assets/cover_photo.jpg';
+
 import styles from './app.module.css';
 
 
@@ -29,7 +31,7 @@ function App() {
           </button>
         </aside>
         <section className={styles.cover}>
-          <img src="src/assets/cover_photo.jpg" alt="cover photo" />
+          <img src={coverPhoto} alt="cover photo" />
           {/* Photo by <a href="https://unsplash.com/@specna_arms_4s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Specna Arms</a> on <a href="https://unsplash.com/photos/man-holding-rifle-ADR-OV5gpQ8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
    */}
         </section>
