@@ -1,5 +1,5 @@
 # GlockHQ
-GlockHQ is a dummy weaponry and gunship marketplace. It was designed as part of [The Odin Project](https://www.theodinproject.com) React exercises to demonstrate master of core react concepts such as **routers**, **useState**, **useEffect** and **testing**. Check out the live demo [here]()
+GlockHQ is a dummy weaponry and gunship marketplace. It was designed as part of [The Odin Project](https://www.theodinproject.com) React exercises to demonstrate master of core react concepts such as **routers**, **useState**, **useEffect** and **testing**. Check out the live demo [here](https://glock-hq.vercel.app/)
 
 ## Screenshots
 Web version
