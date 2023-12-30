@@ -8,6 +8,8 @@ import styles from './bestsellers.module.css';
 export default function Bestsellers({ bestSellers }) {
   const sliderRef = useRef(null);
 
+  let scrollAmount = 300;
+
     return (
         <section className={styles.bestSellers}>
         <div className={styles.navbar}>
@@ -36,7 +38,7 @@ export default function Bestsellers({ bestSellers }) {
                   <img src={`src/data/images/${item.Category}/${item.filename}`} alt="" />
                 </div>
                 <Link to={`guns/${item.Category.toLowerCase()}s`} className={styles.category}>{item.Category}</Link>
-                <Link>
+                <Link to={`product/${item.id}`}>
                   <p className={styles.name}>{item.Name}</p>
                 </Link>
                 <p className={styles.price}>${item.Price}</p>

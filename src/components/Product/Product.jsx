@@ -19,7 +19,7 @@ export default function Product({ product, images, cart, setCart }) {
     }, []);
 
     const handleCount = (operation, product) => {
-        let _cart = cart;
+        let _cart = [...cart];
         if (operation === "add") {
             if (count < 99) {
                 const item = _cart.find((item) => item.id === product.id);

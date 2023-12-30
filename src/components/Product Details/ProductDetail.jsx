@@ -77,7 +77,7 @@ export default function ProductDetail({ cart, setCart }) {
         let blocks = [];
         for (let i = 0; i < value; i++) {
             blocks.push(
-                <div className={styles.block}></div>
+                <div key={i} className={styles.block}></div>
             )
         }
         return blocks;
@@ -94,7 +94,7 @@ export default function ProductDetail({ cart, setCart }) {
     }
 
     const handleCount = (operation, product) => {
-        let _cart = cart;
+        let _cart = [...cart];
         if (operation === "add") {
             if (count < 99) {
                 const item = _cart.find((item) => item.id === product.id);

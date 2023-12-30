@@ -37,6 +37,16 @@ export default function Cart({ cart, setCart }) {
         setCart((cart) => (_cart.length > 0 ? _cart : []));
     }
 
+    const remove = (product) => {
+        let _cart = [...cart];
+
+        let item = _cart.find((item) => item.id === product.id);
+        let index = _cart.indexOf(item);
+        _cart.splice(index, 1);
+
+        setCart(_cart);
+    }
+
     useEffect(() => {
         let totalAmount = 0;
         let updatedItems = [];
@@ -119,7 +129,7 @@ export default function Cart({ cart, setCart }) {
     return (
         <div className={styles.main}>
             <section className={styles.items}>
-                <header>
+                <header className={styles.cartHeader}>
                     <p className={styles.title}>Shopping Cart</p>
                     <p className={styles.count}>{cart.length} Items</p>
                 </header>
@@ -143,7 +153,7 @@ export default function Cart({ cart, setCart }) {
                                                 <ul>
                                                     <li>{item.name}</li>
                                                     <li>{item.category}</li>
-                                                    <li>Remove</li>
+                                                    <li onClick={() => remove(item)}>Remove</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -174,7 +184,7 @@ export default function Cart({ cart, setCart }) {
                 </div>
             </section>
             <section className={styles.receipt}>
-                <header>
+                <header className={styles.cartHeader}>
                     <p className={styles.title}>Order Summary</p>
                 </header>
                 <div className={styles.details}>

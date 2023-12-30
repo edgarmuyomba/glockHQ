@@ -11,7 +11,7 @@ section.items {
     padding: 3rem 2rem;
 }
 
-header {
+header.cartHeader {
     display: flex;
     align-items: center;
     justify-content: space-between;
