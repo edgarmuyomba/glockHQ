@@ -50,7 +50,6 @@ ul.links li:hover {
 
 ul.icons {
     display: flex;
-    flex-direction: row;
     align-items: center;
     list-style-type: none;
     gap: 1rem;
@@ -84,4 +83,27 @@ div.contact {
     background-color: grey;
     color: white;
     font-size: 0.5rem;
+}
+
+@media (max-width: 767px) {
+    div.navbar {
+        height: 40px;
+    }
+
+    div.logo > a {
+        font-size: 1rem;
+    }
+
+    div.logo > img {
+        height: 80%;
+    }
+
+    ul.links {
+        gap: 2rem;
+        margin-right: 2rem;
+    }
+
+    div.contact {
+        display: none;
+    }
 }

@@ -111,3 +111,17 @@ button.plus {
     border-radius: 0 3px 3px 0;
     border: none;
 }
+
+@media (max-width: 767px) {
+    div.product {
+        height: 300px;
+    }
+    
+    footer.details {
+        height: 20%;
+    }
+
+    div.count {
+        height: 60%;
+    }
+}

@@ -65,3 +65,34 @@ section.cover > img {
         height: 350px;
     }
 }
+
+@media (max-width: 767px) {
+    header {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    aside.homeAside {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        backdrop-filter: brightness(30%);
+    }
+
+    p.heading {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    button.guns {
+        width: 5rem;
+        padding: 0.3rem 0.7rem;
+    }
+
+    section.cover {
+        width: 100%;
+        height: auto;
+    }
+}

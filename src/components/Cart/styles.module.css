@@ -47,7 +47,7 @@ div.shipping {
     border-bottom: 1px solid var(--secondaryBG);
 }
 
-div.shipping > p {
+div.shipping>p {
     font-weight: bold;
     font-size: 0.8rem;
 }
@@ -63,7 +63,7 @@ div.dropdown {
     border: none;
 }
 
-div.checkout > button {
+div.checkout>button {
     width: 100%;
     margin: 1rem 0;
     padding: 0.5rem 1rem;
@@ -73,14 +73,14 @@ div.checkout > button {
     font-weight: bold;
 }
 
-div.checkout > button:hover {
+div.checkout>button:hover {
     background-color: #79725a;
 }
 
 div.table {
     width: 100%;
     height: 70%;
-    overflow-y: scroll;
+    overflow-y: auto;
     margin: 1rem 0;
 }
 
@@ -94,9 +94,9 @@ div.tableHead {
     color: #283020;
 }
 
-div.tableHead > p:nth-child(2),
-div.tableHead > p:nth-child(3),
-div.tableHead > p:nth-child(4) {
+div.tableHead>p:nth-child(2),
+div.tableHead>p:nth-child(3),
+div.tableHead>p:nth-child(4) {
     justify-self: center;
 }
 
@@ -108,14 +108,14 @@ div.item {
     margin-bottom: 0.5rem;
 }
 
-div.item > div:nth-child(2),
-div.item > p:nth-child(3),
-div.item > p:nth-child(4) {
+div.item>div:nth-child(2),
+div.item>p:nth-child(3),
+div.item>p:nth-child(4) {
     justify-self: center;
     font-size: 0.7rem;
 }
 
-div.item > div:nth-child(2) {
+div.item>div:nth-child(2) {
     height: 100%;
     display: flex;
     align-items: center;
@@ -160,7 +160,7 @@ p.image {
     background-color: var(--secondaryBG);
 }
 
-p.image > img {
+p.image>img {
     width: 100%;
 }
 
@@ -170,7 +170,7 @@ div.actions {
     align-items: center;
 }
 
-div.actions > ul {
+div.actions>ul {
     list-style-type: none;
     font-size: 0.7rem;
     display: flex;
@@ -201,7 +201,7 @@ div.continue {
     border-top: 1px solid var(--secondaryBG);
 }
 
-div.continue > a {
+div.continue>a {
     font-size: 0.8rem;
     text-decoration: none;
     display: flex;
@@ -211,5 +211,77 @@ div.continue > a {
 @media (max-width: 1024px) {
     div.item {
         height: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    div.main {
+        flex-direction: column;
+    }
+
+    section.receipt {
+        width: 100%;
+        height: 100px;
+        padding: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    section.receipt>header {
+        display: none;
+    }
+
+    div.details>div.totalCost {
+        display: none;
+    }
+
+    div.totalCost {
+        font-size: 1rem;
+    }
+
+    div.shipping {
+        display: none;
+    }
+
+    section.items {
+        width: 100%;
+        padding: 2rem 2rem;
+        padding-bottom: 0;
+    }
+
+    div.table {
+        height: 500px;
+    }
+
+    header.cartHeader {
+        flex-direction: row;
+    }
+
+    div.item {
+        height: 100px;
+        margin-bottom: 0.3rem;
+    }
+
+    div.item>div:nth-child(2),
+    div.item>p:nth-child(3),
+    div.item>p:nth-child(4) {
+        font-size: 0.9rem;
+    }
+
+    div.count {
+        width: 60px;
+    }
+
+    p.qty {
+        font-size: 0.8rem;
+    }
+
+    div.actions>ul {
+        font-size: 1rem;
+    }
+
+    div.continue {
+        height: 8%;
+        margin-top: 0;
+        padding: 0.5rem;
     }
 }

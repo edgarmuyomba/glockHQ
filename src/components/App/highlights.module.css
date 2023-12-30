@@ -66,3 +66,20 @@ div.highlight3:hover p {
         right: -8%;
     }
 }
+
+@media (max-width: 767px) {
+    section.highlights {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    section.highlights > div {
+        height: calc(100% / 3);
+        width: 100%;
+    }
+
+    div.highlight3 img {
+        width: auto;
+        height: 100%;
+    }
+}

@@ -7,7 +7,7 @@ import glockHQ from '../../assets/glockHQ.png';
 import styles from './footer.module.css';
 
 export default function Footer() {
-    return (
+    return ( 
         <section className={styles.footer}>
             <aside className={styles.footerAside}>
                 <div className="logo">

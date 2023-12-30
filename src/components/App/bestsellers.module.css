@@ -109,3 +109,14 @@ p.price {
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+@media (max-width: 767px) {
+    section.bestSellers {
+        height: 300px;
+    }
+
+    div.item>div {
+        height: 85%;
+        padding: 1rem;
+    }
+}

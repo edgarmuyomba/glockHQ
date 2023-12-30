@@ -18,7 +18,7 @@ ul.links {
     padding-left: 1rem;
 }
 
-ul.links > a {
+ul.links>a {
     text-decoration: none;
     color: var(--secondaryLabel);
     font-size: 0.8rem;
@@ -45,5 +45,36 @@ div.main {
 @media (max-width: 1024px) {
     aside.sidebar {
         height: 350px;
+    }
+}
+
+@media (max-width: 767px) {
+    aside.sidebar {
+        width: 100%;
+        height: 50px;
+        padding: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    p.title {
+        display: none;
+    }
+
+    ul.links {
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 0;
+    }
+
+    li.link {
+        height: 20px;
+    }
+
+    a.selected {
+        border-left: none;
+        padding-left: 0;
+        border-bottom: 1.5px solid var(--secondaryLabel);
+        padding-bottom: 0.5rem;
     }
 }

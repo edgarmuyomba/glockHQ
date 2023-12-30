@@ -17,3 +17,13 @@ section.products {
         margin: 1.5rem 0;
     }
 }
+
+@media (max-width: 767px) {
+    div.main {
+        flex-direction: column;
+    }
+
+    section.products {
+        width: 100%;
+    }
+}

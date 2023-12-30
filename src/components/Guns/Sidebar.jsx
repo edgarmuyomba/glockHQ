@@ -12,7 +12,7 @@ export default function Sidebar() {
             <ul className={styles.links}>
                 <Link to="handguns" className={selected === 1 ? styles.selected : ''} onClick={() => setSelected(1)}>
                     <li className={styles.link}>
-                        <p className="name">Handguns</p>
+                        <p className="name">Handguns</p> 
                     </li>
                 </Link>
                 <Link to="rifles" className={selected === 2 ? styles.selected : ''} onClick={() => setSelected(2)}>

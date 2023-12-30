@@ -5,3 +5,9 @@ div.main {
     gap: 0.8rem;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
+
+@media (max-width: 767px) {
+    div.main {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
