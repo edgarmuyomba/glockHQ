@@ -41,3 +41,9 @@ div.main {
     width: 70%;
     border: 1px solid red;
 }
+
+@media (max-width: 1024px) {
+    aside.sidebar {
+        height: 350px;
+    }
+}

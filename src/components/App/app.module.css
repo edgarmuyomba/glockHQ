@@ -60,4 +60,8 @@ section.cover > img {
     width: 100%;
 }
 
-
+@media (max-width: 1024px) {
+    header {
+        height: 350px;
+    }
+}

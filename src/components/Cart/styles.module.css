@@ -207,3 +207,9 @@ div.continue > a {
     display: flex;
     align-items: center;
 }
+
+@media (max-width: 1024px) {
+    div.item {
+        height: 100px;
+    }
+}

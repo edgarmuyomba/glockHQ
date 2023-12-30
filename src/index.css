@@ -30,3 +30,9 @@ body {
 #root {
     width: 100%;
 }
+
+@media (max-width: 1024px) {
+    body {
+        padding: 0 5rem;
+    }
+}

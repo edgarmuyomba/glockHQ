@@ -9,7 +9,7 @@ import coverPhoto from '../../assets/cover_photo.jpg';
 
 import styles from './app.module.css';
 
-
+ 
 function App({ cart, setCart }) {
 
   const { images: bestSellers, loading: loadingBest, error: errorBest } = useImages('bestsellers');
