@@ -9,6 +9,7 @@ import Attachments from './components/Guns/Attachments';
 import { useState } from 'react';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import ProductDetail from './components/Product Details/ProductDetail';
 
 export default function Router() {
 
@@ -49,6 +50,10 @@ export default function Router() {
         {
             path: "ammo",
             element: <Ammo {...props} />
+        },
+        {
+            path: "product/:id",
+            element: <ProductDetail {...props} />
         },
         {
             path: "cart",

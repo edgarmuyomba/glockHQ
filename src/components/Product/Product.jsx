@@ -48,40 +48,40 @@ export default function Product({ product, images, cart, setCart }) {
     }
 
     return (
-        <Link className={styles.product}>
-            <div className={styles.product}>
-                <div className={styles.image}>
-                    <img src={images[product.filename]} alt="product_image" />
-                </div>
-                <footer className={styles.details}>
-                    <p className={styles.name}>{product.Name}</p>
-                    <p className={styles.category}>{product.Category}</p>
-                    <p className={styles.price}>${product.Price}</p>
-                    {
-                        selected
-                            ? ( // cart logic also here
-                                <div className={styles.count}>
-                                    <button className={styles.sub} onClick={() => handleCount("sub", product)}>
-                                        -
-                                    </button>
-                                    {count}
-                                    <button className={styles.plus} onClick={() => handleCount("add", product)}>
-                                        +
-                                    </button>
-                                </div>
-                            )
-                            : (
-                                <button className={styles.add} onClick={() => {
-                                    setCart((cart) => [...cart, { id: product.id, category: product.Category, count: 1 }]);
-                                    setSelected(true);
-                                }
-                                }>
-                                    Add to cart
-                                </button>
-                            )
-                    }
-                </footer>
+        <div className={styles.product}>
+            <div className={styles.image}>
+                <img src={images[product.filename]} alt="product_image" />
             </div>
-        </Link>
+            <footer className={styles.details}>
+                <Link to={`/product/${product.id}`} className={styles.product}>
+                    <p className={styles.name}>{product.Name}</p>
+                </Link>
+                <p className={styles.category}>{product.Category}</p>
+                <p className={styles.price}>${product.Price}</p>
+                {
+                    selected
+                        ? ( // cart logic also here
+                            <div className={styles.count}>
+                                <button className={styles.sub} onClick={() => handleCount("sub", product)}>
+                                    -
+                                </button>
+                                {count}
+                                <button className={styles.plus} onClick={() => handleCount("add", product)}>
+                                    +
+                                </button>
+                            </div>
+                        )
+                        : (
+                            <button className={styles.add} onClick={() => {
+                                setCart((cart) => [...cart, { id: product.id, category: product.Category, count: 1 }]);
+                                setSelected(true);
+                            }
+                            }>
+                                Add to cart
+                            </button>
+                        )
+                }
+            </footer>
+        </div>
     );
 }
