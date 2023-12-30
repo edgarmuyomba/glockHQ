@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 import styles from './styles.module.css';
 import Icon from '@mdi/react';
-import { mdiChevronDown } from '@mdi/js';
+import { mdiChevronDown, mdiArrowLeftThin } from '@mdi/js';
 
 import handguns from '../../data/dictionaries/handguns.json';
 import rifles from '../../data/dictionaries/rifles.json';
@@ -92,7 +93,7 @@ export default function Cart({ cart, setCart }) {
             }
         }
         setTotal(totalAmount);
-    }, []);
+    }, [cart]);
 
     return (
         <div className={styles.main}>
@@ -101,17 +102,55 @@ export default function Cart({ cart, setCart }) {
                     <p className={styles.title}>Shopping Cart</p>
                     <p className={styles.count}>{cart.length} Items</p>
                 </header>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Product details</th>
-                            <th>Quantity</th>
-                            <th>Price</th>
-                            <th>Total</th>
-                        </tr>
-                    </thead>
-                    <tbody></tbody>
-                </table>
+                <div className={styles.table}>
+                    <div className={styles.tableHead}>
+                        <p>Product details</p>
+                        <p>Quantity</p>
+                        <p>Price</p>
+                        <p>Total</p>
+                    </div>
+                    <div className={styles.tableBody}>
+                        {
+                            items.map((item, index) => {
+                                return (
+                                    <div key={index} className={styles.item}>
+                                        <div className={styles.pDetails}>
+                                            <p className={styles.image}>
+                                                <img src={item.image} alt="" />
+                                            </p>
+                                            <p className={styles.actions}>
+                                                <ul>
+                                                    <li>{item.name}</li>
+                                                    <li>{item.category}</li>
+                                                    <li>Remove</li>
+                                                </ul>
+                                            </p>
+                                        </div>
+                                        <p>
+                                            <div className={styles.count}>
+                                                <p className={styles.sub}>
+                                                    -
+                                                </p>
+                                                <p className={styles.qty}>{item.quantity}</p>
+                                                <p className={styles.plus}>
+                                                    +
+                                                </p>
+                                            </div>
+                                        </p>
+                                        <p>${item.price}</p>
+                                        <p>${item.total}</p>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </div>
+                <div className={styles.continue}>
+                    <Link to='/guns'>
+                        <Icon path={mdiArrowLeftThin} size={1} />
+                        Continue Shopping
+                    </Link>
+                </div>
             </section>
             <section className={styles.receipt}>
                 <header>
