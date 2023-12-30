@@ -228,10 +228,12 @@ div.continue>a {
 
     section.receipt>header {
         display: none;
+        height: 0;
     }
 
     div.details>div.totalCost {
         display: none;
+        height: 0;
     }
 
     div.totalCost {
@@ -240,6 +242,7 @@ div.continue>a {
 
     div.shipping {
         display: none;
+        height: 0;
     }
 
     section.items {
@@ -280,7 +283,7 @@ div.continue>a {
     }
 
     div.continue {
-        height: 8%;
+        height: 10%;
         margin-top: 0;
         padding: 0.5rem;
     }
