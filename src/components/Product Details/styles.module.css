@@ -40,7 +40,11 @@ p.name {
 
 p.category {
     font-size: 0.7rem;
-    color: var(--secondaryBG)
+}
+
+p.category > a {
+    color: var(--secondaryBG);
+    text-decoration: none;
 }
 
 p.price {

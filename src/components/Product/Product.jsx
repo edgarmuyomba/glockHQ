@@ -22,7 +22,8 @@ export default function Product({ product, images, cart, setCart }) {
         let _cart = cart;
         if (operation === "add") {
             if (count < 99) {
-                const item = _cart.find((item) => item.id === product.id);
+                // const item = _cart.find((item) => item.id === product.id);
+                const item = _cart.includes(product);
 
                 if (item) {
                     item.count++;

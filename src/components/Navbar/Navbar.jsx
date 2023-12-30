@@ -5,7 +5,6 @@ import { mdiCart, mdiMagnify } from "@mdi/js";
 import glockHQ from '../../assets/glockHQ.png';
 
 import styles from "./styles.module.css";
-import { useEffect } from "react";
 
 export default function Navbar({ selected, cart, setCart }) {
     return (
@@ -31,7 +30,7 @@ export default function Navbar({ selected, cart, setCart }) {
             <ul className={styles.icons}>
                 <li className={styles.cart}>
                     <div className={cart.length > 0 ? styles.active : ''}></div>
-                    <Link to="cart">
+                    <Link to="/cart">
                         <Icon path={mdiCart} size={0.7} color="#a29889" title="Cart" />
                     </Link>
                 </li>

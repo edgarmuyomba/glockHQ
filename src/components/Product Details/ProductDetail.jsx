@@ -1,6 +1,7 @@
 import Navbar from "../Navbar/Navbar";
 import { Navigate, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 import styles from './styles.module.css';
 
@@ -147,7 +148,11 @@ export default function ProductDetail({ cart, setCart }) {
                         <img src={image} alt="product_image" />
                     </section>
                     <section className={styles.details}>
-                        <p className={styles.category}>{product.Category}</p>
+                        <p className={styles.category}>
+                            <Link to={`/guns/${product.Category.toLowerCase()}s`}>
+                                {product.Category}
+                            </Link>
+                        </p>
                         <p className={styles.name}>{product.Name}</p>
                         <p className={styles.price}>${product.Price}</p>
                         <div className={styles.damage}>
