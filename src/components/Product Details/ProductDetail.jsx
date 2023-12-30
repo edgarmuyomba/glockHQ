@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import styles from './styles.module.css';
+import Icon from "@mdi/react";
+import { mdiShoppingOutline } from "@mdi/js";
 
 import handguns from '../../data/dictionaries/handguns.json';
 import rifles from '../../data/dictionaries/rifles.json';
@@ -20,7 +22,7 @@ export default function ProductDetail({ cart, setCart }) {
     const [image, setImage] = useState(null);
     const [damage, setDamage] = useState([]);
     const [selected, setSelected] = useState(false);
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(1);
 
     let props = {
         cart: cart,
@@ -183,6 +185,7 @@ export default function ProductDetail({ cart, setCart }) {
                                             setCart((cart) => [...cart, { id: product.id, category: product.Category, count: 1 }]);
                                             setSelected(true);
                                         }}>
+                                            <Icon path={mdiShoppingOutline} size={0.5} />
                                             Add to Cart
                                         </button>
                                     )

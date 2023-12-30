@@ -90,6 +90,10 @@ button.add {
     cursor: pointer;
     background-color: transparent;
     color: var(--secondaryLabel);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
 }
 
 button.add:hover {

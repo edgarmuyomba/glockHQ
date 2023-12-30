@@ -1,0 +1,78 @@
+div.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+section.items {
+    width: 65%;
+    height: 100%;
+    padding: 3rem 2rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    color: var(--secondaryLabel);
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--secondaryBG);
+    height: 10%;
+}
+
+section.receipt {
+    width: 35%;
+    height: 100%;
+    padding: 3rem 1.5rem;
+    background-color: #3e4731;
+}
+
+div.details {
+    padding: 1rem 0;
+}
+
+div.totalCost {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+div.shipping {
+    margin-top: 1.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--secondaryBG);
+}
+
+div.shipping > p {
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+div.dropdown {
+    margin: 1rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #84996754;
+    font-size: 0.7rem;
+    padding: 0.3rem;
+    border: none;
+}
+
+div.checkout > button {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: var(--primaryButton);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+div.checkout > button:hover {
+    background-color: #79725a;
+}
