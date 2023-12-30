@@ -16,14 +16,30 @@ export default function Cart({ cart, setCart }) {
     const [items, setItems] = useState([]);
     const [total, setTotal] = useState(0);
 
-    const calculateTotal = () => {
-        for (let item of items) {
-            setTotal((total) => total + item.total);
+    const handleCount = (operation, product) => {
+        let _cart = [...cart];
+        if (operation === 'add') {
+            if (product.quantity < 99) {
+                let item = _cart.find((_item) => _item.id === product.id);
+                if (item) {
+                    item.count++;
+                }
+            }
+        } else if (operation === 'sub') {
+            let item = _cart.find((_item) => _item.id === product.id);
+            if (item.count > 1) {
+                item.count--;
+            } else {
+                let index = _cart.indexOf(item);
+                _cart.splice(index, 1);
+            }
         }
+        setCart((cart) => (_cart.length > 0 ? _cart : []));
     }
 
     useEffect(() => {
         let totalAmount = 0;
+        let updatedItems = [];
 
         for (let _item of cart) {
             if (_item.category === 'Handgun') {
@@ -31,6 +47,7 @@ export default function Cart({ cart, setCart }) {
                 for (let handgun of handguns) {
                     if (handgun.id == _item.id) {
                         let item = {
+                            id: _item.id,
                             image: handgunImages[handgun.filename],
                             name: handgun.Name,
                             category: handgun.Category,
@@ -39,7 +56,7 @@ export default function Cart({ cart, setCart }) {
                             total: _item.count * handgun.Price
                         };
                         totalAmount += item.total;
-                        setItems((items) => ([...items, item]));
+                        updatedItems.push(item)
                     }
                 }
             } else if (_item.category === 'Rifle') {
@@ -47,6 +64,7 @@ export default function Cart({ cart, setCart }) {
                 for (let rifle of rifles) {
                     if (rifle.id == _item.id) {
                         let item = {
+                            id: _item.id,
                             image: rifleImages[rifle.filename],
                             name: rifle.Name,
                             category: rifle.Category,
@@ -55,7 +73,7 @@ export default function Cart({ cart, setCart }) {
                             total: _item.count * rifle.Price
                         };
                         totalAmount += item.total;
-                        setItems((items) => ([...items, item]));
+                        updatedItems.push(item)
                     }
                 }
             } else if (_item.category === 'Attachment') {
@@ -63,6 +81,7 @@ export default function Cart({ cart, setCart }) {
                 for (let attachment of attachments) {
                     if (attachment.id == _item.id) {
                         let item = {
+                            id: _item.id,
                             image: attachmentImages[attachment.filename],
                             name: attachment.Name,
                             category: attachment.Category,
@@ -71,7 +90,7 @@ export default function Cart({ cart, setCart }) {
                             total: _item.count * attachment.Price
                         };
                         totalAmount += item.total;
-                        setItems((items) => ([...items, item]));
+                        updatedItems.push(item)
                     }
                 }
             } else if (_item.category === 'Ammunition') {
@@ -79,6 +98,7 @@ export default function Cart({ cart, setCart }) {
                 for (let ammunition of ammunitions) {
                     if (ammunition.id == _item.id) {
                         let item = {
+                            id: _item.id,
                             image: ammunitionImages[ammunition.filename],
                             name: ammunition.Name,
                             category: ammunition.Category,
@@ -87,11 +107,12 @@ export default function Cart({ cart, setCart }) {
                             total: _item.count * ammunition.Price
                         };
                         totalAmount += item.total;
-                        setItems((items) => ([...items, item]));
+                        updatedItems.push(item)
                     }
                 }
             }
         }
+        setItems(updatedItems);
         setTotal(totalAmount);
     }, [cart]);
 
@@ -118,27 +139,27 @@ export default function Cart({ cart, setCart }) {
                                             <p className={styles.image}>
                                                 <img src={item.image} alt="" />
                                             </p>
-                                            <p className={styles.actions}>
+                                            <div className={styles.actions}>
                                                 <ul>
                                                     <li>{item.name}</li>
                                                     <li>{item.category}</li>
                                                     <li>Remove</li>
                                                 </ul>
-                                            </p>
+                                            </div>
                                         </div>
-                                        <p>
+                                        <div>
                                             <div className={styles.count}>
-                                                <p className={styles.sub}>
+                                                <p className={styles.sub} onClick={() => handleCount("sub", item)}>
                                                     -
                                                 </p>
                                                 <p className={styles.qty}>{item.quantity}</p>
-                                                <p className={styles.plus}>
+                                                <p className={styles.plus} onClick={() => handleCount("add", item)}>
                                                     +
                                                 </p>
                                             </div>
-                                        </p>
+                                        </div>
                                         <p>${item.price}</p>
-                                        <p>${item.total}</p>
+                                        <p>${item.total.toFixed(2)}</p>
                                     </div>
                                 )
                             })
@@ -159,7 +180,7 @@ export default function Cart({ cart, setCart }) {
                 <div className={styles.details}>
                     <div className={styles.totalCost}>
                         <p className={styles.items}>ITEMS {cart.length}</p>
-                        <p className={styles.value}>${total}</p>
+                        <p className={styles.value}>${total.toFixed(2)}</p>
                     </div>
                     <div className={styles.shipping}>
                         <p>SHIPPING</p>
@@ -172,7 +193,7 @@ export default function Cart({ cart, setCart }) {
                 <div className={styles.checkout}>
                     <div className={styles.totalCost}>
                         <p className={styles.items}>TOTAL COST</p>
-                        <p className={styles.value}>${total + 5}</p>
+                        <p className={styles.value}>${(total + 5).toFixed(2)}</p>
                     </div>
                     <button>CHECKOUT</button>
                 </div>

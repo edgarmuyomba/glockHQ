@@ -108,14 +108,14 @@ div.item {
     margin-bottom: 0.5rem;
 }
 
-div.item > p:nth-child(2),
+div.item > div:nth-child(2),
 div.item > p:nth-child(3),
 div.item > p:nth-child(4) {
     justify-self: center;
     font-size: 0.7rem;
 }
 
-div.item > p:nth-child(2) {
+div.item > div:nth-child(2) {
     height: 100%;
     display: flex;
     align-items: center;
@@ -164,13 +164,13 @@ p.image > img {
     width: 100%;
 }
 
-p.actions {
+div.actions {
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-p.actions > ul {
+div.actions > ul {
     list-style-type: none;
     font-size: 0.7rem;
     display: flex;
@@ -179,15 +179,15 @@ p.actions > ul {
     height: 60%;
 }
 
-p.actions li:first-child {
+div.actions li:first-child {
     font-weight: bold;
 }
 
-p.actions li:nth-child(2) {
+div.actions li:nth-child(2) {
     color: rgba(245, 245, 245, 0.315);
 }
 
-p.actions li:last-child {
+div.actions li:last-child {
     color: var(--secondaryBG);
     cursor: pointer;
     font-size: 0.6rem;
